@@ -1,0 +1,31 @@
+#!/usr/bin/env perl
+#===============================================================================
+#
+#         File:  track
+#
+#        Usage:  track  
+#
+#     ABSTRACT:  track command line application
+#  Description:  ---
+#
+#      Options:  ---
+# Requirements:  ---
+#         Bugs:  ---
+#        Notes:  ---
+#       Author:  Bernardo Rechea (BRB), <brbpub@gmail.com>
+#      Company:  ---
+#    Copyright:  Copyright (c) 2009, Bernardo Rechea
+#      Version:  1.0
+#      Created:  2009-11-02 16:16:19
+#     Revision:  ---
+#===============================================================================
+
+use 5.10.0;
+use strict;
+use warnings;
+use autodie qw(:all);
+
+use Track::App;
+Track::App->run;
+
+

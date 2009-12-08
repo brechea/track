@@ -1,0 +1,7 @@
+---
+# 2 straights of length 1
+s1: 2
+# 1 straight of length 2
+s2: 1
+# 12 right-hand, 45° arcs
+aR: 12
